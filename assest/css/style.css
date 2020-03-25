@@ -1,0 +1,94 @@
+body,
+ul,
+div,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+.client-section img {
+  width: 50%;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+}
+body {
+  font-family: "Be Vietnam", sans-serif;
+  background-color: #044e57;
+}
+
+#landing-section {
+  height: 40em;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1em;
+}
+
+li {
+  list-style: none;
+  color: white;
+}
+
+.home-link {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.login {
+  border: white solid 0.1em;
+  background-color: transparent;
+  border-radius: 2em;
+  color: white;
+  padding: 1em;
+  width: 12em;
+}
+
+.navbar-link {
+  padding-top: 0.3em;
+}
+
+.landing-body-con {
+  display: flex;
+  width: 100%;
+  color: white;
+}
+
+.deepgreen-shape {
+  width: 40%;
+  position: absolute;
+  left: -13em;
+  top: -2em;
+}
+
+.landing-header {
+  font-size: 3.5em;
+  margin-left: 6em;
+  margin-top: 2em;
+}
+
+.landing-body {
+  margin-left: 10em;
+  margin-top: 10em;
+  line-height: 1.8em;
+}
+.orange-shape {
+  position: absolute;
+  right: 0;
+  bottom: -17em;
+  opacity: 0.4;
+}
+
+#about-section {
+  background-color: #033035;
+}
+
+.more-info-con {
+    display: flex;
+}
