@@ -7,17 +7,13 @@ a {
   padding: 0;
 }
 
-.client-section img {
-  width: 50%;
-}
-
 html {
   scroll-behavior: smooth;
   width: 100%;
 }
 body {
   font-family: "Be Vietnam", sans-serif;
-  background-color: #044e57;
+  background-color: #002528;
 }
 
 #landing-section {
@@ -25,9 +21,11 @@ body {
   position: relative;
 }
 
-.navbar {
+
+
+.navbar-con {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-top: 1em;
 }
 
@@ -37,8 +35,19 @@ li {
 }
 
 .home-link {
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: bold;
+  padding-left: 1em;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.navbar-left {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1em;
 }
 
 .login {
@@ -48,10 +57,16 @@ li {
   color: white;
   padding: 1em;
   width: 12em;
+ 
+}
+
+.navbar-left li {
+  padding-top: 0.4em;
 }
 
 .navbar-link {
-  padding-top: 0.3em;
+  margin-left: 6em;
+  text-align: center;
 }
 
 .landing-body-con {
@@ -91,47 +106,312 @@ li {
 }
 
 .more-info-con {
-    display: flex;
-   
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .more-info-intro {
-    font-size: 2em;
-    margin-top: 6em;
-    
+  font-size: 2em;
+  margin-top: 6em;
 }
 
 .more-info-details {
-    margin-top: 8em;
+  margin-top: 8em;
+}
+
+.more-info-details p {
+  line-height: 1.8em;
 }
 
 .testimonial-sec h1 {
-    text-align: center;
-    margin-top: 6em;
-    line-height: 1.6em;
-    
+  text-align: center;
+  margin-top: 6em;
+  line-height: 1.6em;
 }
 
 .testimonial-con {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    margin: 3em 0;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 3em 0;
 }
 
 .testimonial-con h3 {
-   color:  #88C5C6;
+  color: #88c5c6;
+  margin: 0;
 }
 
-
 .testimonial-con p {
-    font-size: 0.9em;
-    letter-spacing: 0.1em;
+  font-size: 0.8em;
 }
 
 .testimonial-con img {
-    border-radius: 50%;
+  border-radius: 50%;
+  width: 5em;
+  margin-bottom: 4em;
+}
+
+#our-team-section h1 {
+  margin-top: 3em;
+  color: #f87e7d;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.profile-con {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.team-profile {
+  text-align: center;
+  width: 25%;
+  padding: 2em 0;
+  background-color: #033035;
+  margin: 1em;
+  color: white;
+}
+
+.team-profile h4 {
+  color: #88c5c6;
+}
+
+.team-profile p {
+  font-size: 0.8em;
+}
+
+.team-profile img {
+  width: 4em;
+  border-radius: 50%;
+  border: 0.1em solid white;
+}
+
+#client-section {
+  background-color: #033035;
+}
+
+#client-section h1 {
+  font-size: 2em;
+  color: white;
+  padding-top: 2em;
+  text-align: center;
+}
+
+.client-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.our-client-logo {
+  width: 10%;
+  margin: 2em 0 7em 0;
+}
+
+#get-started-section {
+  background-color: #f87e7d;
+  display: flex;
+  justify-content: space-evenly;
+  height: 15em;
+  position: relative;
+  padding-top: 10em;
+}
+
+#get-started-section button {
+  width: 13em;
+  height: 3em;
+  border: solid 0.1em #033035;
+  background-color: transparent;
+  border-radius: 2em;
+  margin-top: 1em;
+}
+
+.green-shape{
+  position: absolute;
+  top: 5em;
+  left: -15em;
+  opacity: 0.8;
+}
+
+footer {
+  background-color: #002528;
+  width: 100%;
+  margin-bottom: -1em;
+  padding: 8em 0 0.5em 0;
+  color: white;
+}
+.footer-col-con {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-col-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-col-1 a {
+  padding-bottom: 1em;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-logo {
+  padding-bottom: 2em;
+  width: 4em;
+}
+
+.footer-form {
+  height: 3em;
+  width: 18em;
+  background-color: transparent;
+  border: solid 0.1em #f87e7d;
+  color: white;
+  border-radius: 2em;
+  padding-left: 1em;
+  outline: none;
+}
+
+.footer-form-btn {
+  width: 8em;
+  height: 3.5em;
+  margin: 1em;
+  outline: none;
+  color: white;
+  background-color: transparent;
+  border: solid 0.1em #f87e7d;
+  border-radius: 2em;
+}
+
+.footer-social-link {
+  padding: 0.5em;
+}
+
+.signature {
+  text-align: center;
+  margin-top: 6em;
+  color: #f87e7d;
+}
+
+.signature a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+
+  .mobile-nav {
+    display: block;
+    margin-left: 9em;
+  }
+  .navbar-link {
+    display: none;
+  }
+  .landing-body-con {
+    flex-direction: column;
+  }
+
+  .landing-header {
+    text-align: center;
+    margin: 0;
+    padding-top: 2em;
+  }
+
+  .landing-body {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding-top: 6em;
+  }
+
+  .deepgreen-shape {
+    display: none;
+  }
+
+  .orange-shape {
+    width: 20em;
+    bottom: -10em;
+    right: 1em;
+  }
+
+  .more-info-con {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .testimonial-con {
+    flex-direction: column;
+  }
+
+  .testimonial-con p {
+    line-height: 1.7em;
+  }
+
+  .profile-con {
+    flex-direction: column;
+  }
+
+  .team-profile {
+    width: 80%;
+    display: block;
+    margin: 1em auto;
+  }
+
+  .client-section {
+    flex-direction: column;
+  }
+
+  .our-client-logo {
+    display: block;
+    margin: 2em auto;
+    width: 4em;
+  }
+
+  #get-started-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .contact-btn {
+    display: block;
+    margin: auto;
+  }
+
+  .green-shape {
+    width: 20em;
+    left: -5em;
+    top: 15em;
+  }
+  
+
+  .footer-col-con {
+    flex-direction: column ;
+}
+
+.logo {
+    text-align: center;
+}
+
+.footer-col {
+    display: block;
+    margin: auto;
+}
+.footer-col-1 {
+    text-align: center;
+    margin: 1.5em 0 1.5em 0;
+}
+.footer-form {
+    
+    width: 13em;
+    height: 2em;
+}
+.footer-form-btn {
+    height: 2em;
     width: 5em;
-    margin-bottom: 10em;
+}
+
+.signature {
+    font-size: 0.7rem;
+}
 }
