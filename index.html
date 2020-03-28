@@ -8,11 +8,12 @@
     <title>Demo</title>
     <link rel="stylesheet" type="text/css" href="/assest/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <section id="landing-section">
-            <nav class="navbar-con">
+            <nav class="navbar-con" >
                     <ul class="navbar">
                             <li><a class="home-link">Demo</a></li> 
                         </ul>
@@ -27,7 +28,11 @@
           
         </div>
         <div class="landing-body-con">
-            <img src="assest/img/blob-shape-ir.svg" class="deepgreen-shape">
+            <img data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-anchor-placement="bottom-center"
+            src="assest/img/blob-shape-ir.svg" class="deepgreen-shape">
             <h1 class="landing-header">Build The<br> Best <span style="color: #F87E7D;"> Team </span></h1>
             <p class="landing-body">
                 <span
@@ -44,7 +49,9 @@
     </section>
     <section id="about-section">
         <div class="more-info-con">
-            <h1 class="more-info-intro">
+            <h1 class="more-info-intro"
+            data-aos="fade-down"
+            data-aos-offset="300">
                 <span 
                 style="border-top: 0.1em solid #F87E7D; 
                 padding-top: 2em;">
@@ -52,13 +59,13 @@
                 like no one else
             </h1>
             <div class="more-info-details">
-                <div>
+                <div data-aos="fade-up" data-aos-duration="2000">
                     <img src="/assest/img/house-icon.png">
                     <h4 style="color: #F87E7D;">Remote Environment</h4>
                     <p>Let your team work, collaborate and build together and<br>
                         manage their workflow remotely</p>
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-duration="2000">
                     <img src="/assest/img/security-icon.png">
                     <h4  style="color: #F87E7D;">Advanced Security</h4>
                     <p>
@@ -67,7 +74,7 @@
 
                     </p>
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-duration="2000">
                     <img src="/assest/img/time-icon.png">
                     <h4  style="color: #F87E7D;">Enhanced Productivity</h4>
                     <p>Our customized platform and processes have been refined over<br>
@@ -83,7 +90,7 @@
                 Delivering real results for top</span><br>
                 companies. Some of our <span style="color: #F87E7D;"> success stories. </span></h1>
             <div class="testimonial-con">
-                <div>
+                <div data-aos="zoom-in">
                     <p>
                         "The team perfectly fit the specialized skill set<br>
                         required. They focused on the most essential<br>
@@ -94,7 +101,7 @@
                     <p>Product Manager at Bookmark</p>
                     <img src="/assest/img/profile-1.jpg">
                 </div>
-                <div>
+                <div data-aos="zoom-in">
                     <p>
                         "The team perfectly fit the specialized skill set<br>
                         required. They focused on the most essential<br>
@@ -105,7 +112,7 @@
                     <p>Product Manager at Bookmark</p>
                     <img src="/assest/img/profile-2.jpg">
                 </div>
-                <div>
+                <div data-aos="zoom-in">
                     <p>
                         "The team perfectly fit the specialized skill set<br>
                         required. They focused on the most essential<br>
@@ -201,7 +208,10 @@
                     </div>
                     <p class="signature"><a target="_blank" href="https://twitter.com/oladetounjed">J &#128522;d,</a> Set Awon Frontend Geng</p>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>

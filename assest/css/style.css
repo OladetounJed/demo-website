@@ -300,14 +300,16 @@ footer {
 }
 
 @media (max-width: 1024px) {
-
-  html {
-    font-size: 10px;
-  }
+    html {
+      font-size: 12px;
+    }
+  
 
   .mobile-nav {
     display: block;
     margin-left: 9em;
+    width: 2em;
+    height: 2em;
   }
   .navbar-link {
     display: none;
